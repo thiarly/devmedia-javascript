@@ -1,0 +1,31 @@
+div {
+    height: 50px;
+    width: 500px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: Georgia;
+}
+
+p {
+   font-size: 18px;
+   font-family: Verdana;
+   width: 500px; 
+}
+
+
+img {
+    height: 600px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #9c9c9c
+}

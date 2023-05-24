@@ -1,0 +1,28 @@
+div {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Verdana;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: Verdana;
+    color: #313131;
+}
+
+img {
+    width: 280px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+}
