@@ -32,3 +32,23 @@ h4 {
     text-decoration: underline;
     text-align: center;
     }
+
+
+
+    a {
+        background-color: blue; /* Cor de fundo azul */
+        color: white; /* Cor do texto branca */
+        padding: 10px; /* Espaçamento interno de 10 pixels para todos os lados */
+        margin-top: 15px; /* Margem superior de 15 pixels */
+        border-bottom: 3px solid black; /* Borda inferior de 3 pixels, estilo sólido e cor preta */
+    }
+
+    li {
+        font-weight: bold; /* Estilo negrito */
+        padding: 10px 20px; /* Espaçamento interno: 10px nas partes superior/inferior e 20px nas partes laterais */
+        text-decoration: none; /* Remoção do sublinhado */
+        background-color: #e4e4e4; /* Cor de fundo: #e4e4e4 */
+        color: #383838; /* Cor de texto: #383838 */
+        border-radius: 15px; /* Arredondamento das bordas de 15px para todos os lados */
+    }
+    
