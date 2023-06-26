@@ -1,0 +1,9 @@
+With a decade of experience in IT Infrastructure, I have expertise in Linux and Windows servers, monitoring with Zabbix, virtualization with VMWare, and backup with Veeam.
+
+My personal programming projects focus on Python and Flask, using HTML, CSS, and Tailwind for web development, published on the Railway platform and managed on GitHub. I have skills with essential Python libraries and web automation, and experience in Python integration with other tools.
+
+Although my programming experience is based on personal projects, it has prepared me to contribute to larger scale projects.
+
+
+   <p>Email: seu-email@example.com</p>
+                    <p>LinkedIn: <a class="text-indigo-300" href="https://www.linkedin.com/in/seuusername/">seuusername</a></p>
