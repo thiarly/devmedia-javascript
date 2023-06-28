@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-600;
+   }
+   
+   
+   @layer components{
+     .base-container{
+       @apply container mx-auto grid gap-4 sm:grid-cols-2 md:grid-cols-4 sm:p-8;
+     }
+   
+     .default-box{
+       @apply flex items-center justify-center w-full h-52 bg-slate-300;
+       @apply rounded-md shadow-lg
+   
+     }
+   }
+   
+   
+   .default-boxlightfull{
+     @apply default-box bg-gradient-to-r from-blue-800 to-green-400;
+     @apply text-gray-50 text-2xl;
+     text-shadow: 1px 1px 0 black
+   }
