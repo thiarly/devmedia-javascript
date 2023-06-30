@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+img {
+    width: 150px;
+}
