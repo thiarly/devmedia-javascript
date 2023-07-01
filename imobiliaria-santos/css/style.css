@@ -3,22 +3,45 @@ body {
     font-family: Tahoma;
 }
 
-div {
-    padding: 30px;
+.secao {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-p {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    width: 980px;
+.paragrafo {
     text-align: justify;
     font-size: 18px;
     line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
 }
 
-img {
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;   
+    margin-bottom: 25px
+}
+
+
+.topo {
+    background-color: #afddfb;
+}
+
+.topo img {
     width: 150px;
+}
+
+
+.link-topo{
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+.banner {
+    padding-top: 0;
+    margin-top: 50px;   
 }
