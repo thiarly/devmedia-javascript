@@ -3,6 +3,7 @@ body {
     font-family: Tahoma;
 }
 
+/* === estilos globais === */
 .secao {
     text-align: center;
     padding-top: 30px;
@@ -17,13 +18,7 @@ body {
     width: 980px;
 }
 
-.paragrafo-topo {
-    text-align: center;
-    margin-top: 15px;   
-    margin-bottom: 25px
-}
-
-
+/* === 1º seção === */
 .topo {
     background-color: #afddfb;
 }
@@ -32,6 +27,11 @@ body {
     width: 150px;
 }
 
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;   
+    margin-bottom: 25px
+}
 
 .link-topo{
     color: #1d1d1d;
@@ -41,15 +41,11 @@ body {
     border-bottom: 2px solid #1d1d1d;
 }
 
+
+/* === 2º seção === */
 .banner {
     padding-top: 0;
     margin-top: 50px;   
-}
-
-
-
-.servico {
-
 }
 
 /* === estilos para destaque */
@@ -80,3 +76,38 @@ h2 {
     color: #1c81c0;
 }
 
+/*=== 4º Seção === */
+.servicos, .contato {
+    background-color: #1d80c1;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo-servicos {
+    color: #ffffff;
+    line-height: 42px;
+    width: 700px;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.texto-amarelo {
+    color: #f9e70a;
+}
+
+.lista-servicos{
+    width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-lista-serviço{
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+}
