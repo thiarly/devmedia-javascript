@@ -111,3 +111,35 @@ h3 {
     text-align: left;
     color: #fff;
 }
+
+/* === 6º Seção === */
+
+
+.paragrafo-contato{
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.lista-contato{
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.item-lista-contato{
+    margin-top: 15px;
+    text-align: center;
+  
+}
+
+.link-contato{
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
