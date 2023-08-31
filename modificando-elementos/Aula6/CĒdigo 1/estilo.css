@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background: #23b4eb;
+    text-align: center;
+    height: 48px;
+}
+.main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.area {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.home-imagem {
+    width: 100%;
+    padding: 20px;
+    background-color: #007faf;
+    box-sizing: border-box;
+}
+
+#sobre img {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+}
+
+.area h2, .area h3, .area p {
+    padding: 0 12px;
+}
+
+.area p {
+    line-height: 25px;
+}
+
+.area h2 {
+    margin: 15px 0;
+}
+
+.area h3 {
+    margin: 12px 0;
+}
+
+
+.links li {
+    display: inline;
+    padding: 0 12px;
+}
+
+.links li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.links {
+    padding: 14px 0;
+}
+
+#contato ul {
+    margin: 0 12px;
+}
+
+#contato ul, #contato ul li {
+    display: inline;
+}
+
+#contato ul li a {
+    background: #23b4eb;
+    color: #fff;
+    padding: 10px;
+}
+
+#contato p {
+    height: 40px;
+}

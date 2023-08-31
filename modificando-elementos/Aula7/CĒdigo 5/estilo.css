@@ -1,0 +1,11 @@
+div {
+    width: 450px;
+    text-align: center;
+    background: #69d99f;
+    padding: 10px;
+    box-shadow: 0 0 30px 20px #000000a3 inset;
+}
+
+img {
+    width: 100%;
+}

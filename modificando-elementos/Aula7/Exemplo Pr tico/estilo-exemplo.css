@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.topo,.rodape {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #f97100;
+    color: #fff;
+}
+
+.img-capa {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    font-family: sans-serif;
+}
+
+.info {
+    margin: 30px auto 30px auto;
+}
+
+.info p {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.area {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card {
+    width: 320px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffb500;
+    margin: 0 30px 0 0;
+    border-radius: 12px;
+}
+
+.card-sombra {
+    box-shadow: inset 0 0 15px 12px #ed8317;
+}
+
+.card h2 {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 29px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.informacoes {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.card ul {
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 32px;
+}
+
+.area-image {
+    overflow-x: scroll;
+    margin: 0 auto 40px auto;
+}
+
+.area-image img {
+    width: 315px;
+    margin: 10px;
+}
+
+.image-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.info a {
+    color: blue;
+}

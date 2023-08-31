@@ -1,0 +1,9 @@
+div {
+    margin: 35px;
+}
+
+img {
+    width: 250px;  
+    height: 250px;
+    box-shadow: 20px 20px 10px;
+}

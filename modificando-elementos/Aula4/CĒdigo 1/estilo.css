@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.limita-largura {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.topo, .rodape {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #952424;
+    color: #fff;
+    font-size: 20px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.area {
+    width: calc(100% - 110px);
+    height: calc(50vh - 70px);
+    padding: 15px 20px;
+    margin: 0px 35px 20px 35px;
+    overflow-x: scroll;
+}
+
+.nvidia {
+    background: #38c965;
+}
+
+.amd {
+    background: #ff5959;
+}
+
+.area p {
+    width: 100%;
+    margin: 15px 0;
+}

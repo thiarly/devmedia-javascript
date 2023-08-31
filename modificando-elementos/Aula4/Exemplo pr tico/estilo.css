@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.limita-largura {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo, .rodape {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #ff8014;
+    color: #fff;
+    font-size: 20px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.apresentacao {
+    width: calc(100% - 70px);
+    overflow-y: scroll;
+    height: 315px;
+}
+
+.galeria{
+    width: calc(100% - 70px);
+}
+
+.area {
+    margin: 20px 35px;
+}
+
+.apresentacao img, .area p, .area-tres-imagens {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area-tres-imagens {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
