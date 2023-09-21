@@ -1,0 +1,127 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #051c2d, #2c173e, #4c0d36);
+}
+
+
+
+.title{
+    font-size: 85px;
+    color: #FFF;
+    animation: flipTitle 3s;
+
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+
+.containerInput{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px 0px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #f1f1f1;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+    transition: transform 0.2s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0px;
+    font-size: 39px;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-weight: semi-bold;
+}
+
+
+@media (max-width: 720px){
+    .title{
+        font-size: 60px;
+    }
+
+    main.h2{
+        font-size: 28px;
+    }
+
+    main{
+        width: 80%;
+        min-height: 250px;
+    }
+}   
+
+/* Ícones */
+.social-icons-container {
+    display: flex;
+    margin-bottom: 20px; /* Espaço entre os ícones e o nome do desenvolvedor */
+  }
+  
+  .social-icon {
+    background-image: linear-gradient(76.35deg, #660ac2 15.89%, #850ac2 89.75%); /* Gradiente de fundo */
+    border-radius: 30%;
+    padding: 8px;
+    margin: 15px;
+    transition: transform 0.2s;
+    margin-top: 90px;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Nome do Desenvolvedor */
+  .developer-name {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2px;
+  }
